@@ -6,7 +6,8 @@
 
 
 let cars = ['Fiat', 'Volvo', 'Jeep', 'Ford', 'Mustang', 'Toyota', 'Opel', 'Cherry', 'Audi', 'Honda']
-console.log(cars);
+/*console.log(cars);*/
+console.table(cars);
 
 
 
