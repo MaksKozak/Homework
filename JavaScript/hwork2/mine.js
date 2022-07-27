@@ -96,6 +96,8 @@ console.log(book6);
 Поля: name, username,password. Вивести в консоль пароль кожного користувача*/
 
 
+
+
 let users = [
     {name: 'Mark',
     username: 'mark432',
@@ -138,6 +140,9 @@ let users = [
         password: '"jrtvrcheth"'},
 ]
 
+console.table(users, ['password']);
+
+/*
 console.log(users[0].password);
 console.log(users[1].password);
 console.log(users[2].password);
@@ -148,3 +153,4 @@ console.log(users[6].password);
 console.log(users[7].password);
 console.log(users[8].password);
 console.log(users[9].password);
+*/
