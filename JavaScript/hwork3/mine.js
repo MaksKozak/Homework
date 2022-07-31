@@ -141,8 +141,8 @@ else if ('num1' === 'num2') {
 
 
 let x2 = prompt('xd');
-if (' ' || 'false') {
-    console.log('default')
+if (' ' || 'default') {
+    console.log(x2)
 
 
 }
