@@ -118,17 +118,17 @@ switch (day2)
 
 
 
-let n1 = 'num1';
-let n2 = 'num2';
+let n1 = 200;
+let n2 = 100;
 
-if ('num1' > 'num2') {
-    console.log('num1');
+
+if (n1 > n2) {
+    console.log(n1);
 }
-else if ('num1' < 'num2') {
-    console.log('num2');
-}
-else if ('num1' === 'num2') {
-    console.log('num1');
+else if (n2 > n1) {
+    console.log(n2);
+} else if (n1 === n2) {
+    console.log(n1);
 }
 
 
