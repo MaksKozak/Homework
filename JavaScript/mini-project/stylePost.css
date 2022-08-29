@@ -1,0 +1,51 @@
+
+
+
+
+div {
+
+    background: lemonchiffon;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+
+
+}
+
+p {
+    background: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+h2 {
+    background: lightcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+h3 {
+    border: 1px solid red;
+    border-radius: 10px;
+    background: palevioletred;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+comment{
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}

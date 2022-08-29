@@ -1,0 +1,44 @@
+
+body {
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+
+
+
+
+
+div {
+    border: 1px solid black;
+    background: lemonchiffon;
+    height: 100px;
+    width: 400px;
+    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a {
+    background: silver;
+    width: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+

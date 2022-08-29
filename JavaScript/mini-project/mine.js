@@ -3,20 +3,6 @@
 // 2 Вивести id,name всіх user в index1.html. Окремий блок для кожного user.
 // 3 Додати кожному блоку кнопку/посилання , при кліку на яку відбувається перехід  на сторінку user-details.html,
 // котра має детальну інфорацію про об'єкт на який клікнули
-
-fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(json => console.log(json));
-
-
-
-
-
-
-
-
-
-
 // На странице user-details.html:
 // 4 Вивести всю, без виключення, інформацію про об'єкт user на який клікнули
 // 5 Додати кнопку "post of current user", при кліку на яку, з'являються title всіх постів поточного юзера
@@ -24,35 +10,10 @@ fetch('https://jsonplaceholder.typicode.com/users')
 //     6 Каждому посту додати кнопку/посилання, при кліку на яку відбувається перехід на сторінку post-details.html,
 //     котра має детальну інфу про поточний пост.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 //     На странице post-details.html:
 // 7 Вивести всю, без виключення, інформацію про об'єкт post на який клікнули .
 // 8 Нижчє інформаці про пост, вивести всі коментарі поточного поста (ендпоінт  -
 //     https://jsonplaceholder.typicode.com/posts/POST_ID/comments)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -64,3 +25,28 @@ fetch('https://jsonplaceholder.typicode.com/users')
 //     post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.
 //     Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки
 //     (дати фон. марджини і тд)
+
+
+
+
+
+
+
+
+fetch(`https://jsonplaceholder.typicode.com/users`)
+    .then(response => response.json())
+    .then(users => {
+        for (const user of users) {
+            let div = document.createElement('div');
+            div.innerText = `${user.id}. ${user.name}`;
+
+            let a = document.createElement('a');
+            a.href = `user-details.html?id=${user.id}`;
+            a.innerText = ` transition to users`;
+
+
+            div.appendChild(a);
+            document.body.appendChild(div);
+        }
+    });
+

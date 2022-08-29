@@ -1,0 +1,40 @@
+
+body {
+    height: auto;
+    width: auto;
+    border: 3px solid red;
+    margin-top: 10px;
+    padding: 15px;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+
+    background: lemonchiffon;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+p {
+    background: lightblue;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+h2 {
+    background: lightcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+
